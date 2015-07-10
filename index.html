@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="resources/js/app.js"></script>
+</head>
+<body>
+<div id="content">
+    <h1>FreeCodeCamp</h1><br>
+    <div id="break-selector" class="selector">
+        <p>BREAK LENGTH</p>
+        <div id="break-decrement" class="decrement-button button pomo-ui">-</div>
+        <div id="break-time-indicator" class="display pomo-ui">5</div>
+        <div id="break-increment" class="increment-button button pomo-ui">+</div>
+    </div>
+    <div id="session-selector" class="selector">
+        <p>SESSION LENGTH</p>
+        <div id="session-decrement" class="decrement-button button pomo-ui">-</div>
+        <div id="session-time-indicator" class="display pomo-ui">25</div>
+        <div id="session-increment" class="increment-button button pomo-ui">+</div>
+    </div><br>
+    <div id="timer-display">
+        <div id="filling-circle" class="green-border">
+            <div id="timer-text"><h2>session</h2> <h3>25:00</h3></div>
+            <div id="fill" style="top: 100%" class="green-background"></div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

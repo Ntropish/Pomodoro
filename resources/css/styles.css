@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+* {
+    font-family: 'Oswald', serif;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2em;
+}
+#content {
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#break-selector {
+
+}
+#session-selector {
+
+}
+#timer-display {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20em;
+    width: 20em;
+    position: relative;
+}
+#filling-circle {
+    transition: .1s;
+    cursor: pointer;
+    margin: 2% auto;
+    display: inline-block;
+    vertical-align: middle;
+    height: 90%;
+    width: 90%;
+
+    border-radius: 50%;
+    position: relative;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+#fill {
+    transition: .1s;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+#timer-text {
+    position: relative;
+    top: 2em;
+    margin: 0 auto;
+    align-self: center;
+    z-index: 2;
+}
+#timer-text > h2 {
+    font-weight: 100;
+    font-size: 3em;
+    margin: 0.5em;
+}
+#timer-text > h3 {
+    font-weight: 100;
+    font-size: 4em;
+    margin: 0.5em;
+
+}
+.pomo-ui {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 2em;
+}
+.selector {
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+
+}
+.button {
+    background-color: #eee;
+    box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #ddd;
+    box-shadow: 0 0 0 #aaa;
+    cursor: pointer;
+}
+.display {
+    cursor: default;
+
+}
+.green-border {
+    border: solid green;
+}
+.green-background {
+    background-color: green;
+}
+.red-border {
+    border: solid red;
+}
+.red-background {
+    background-color: red;
+}
